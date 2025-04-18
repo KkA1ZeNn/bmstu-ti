@@ -1,5 +1,6 @@
 import NavLinks, { Link } from "../../../common/navBarComponent/navBarComponent";
 import main_logo from '../../../../assets/main-logo.svg';
+import './portfolioPageHeader.css'
 
 const Header: React.FC = () => {
     const headerLinks: Link[] = [
@@ -10,14 +11,14 @@ const Header: React.FC = () => {
     ];
 
     return (
-        <header className="header">
+        <div className="header-content-wrapper">
             <div className="logo-wrapper">
-                <a href="#"><img src={main_logo} alt="" /></a>
+                <a href="#"><img src={main_logo} alt="main page logo" /></a>
             </div>
-            <nav>
-                <NavLinks links={headerLinks} />
+            <nav className="nav-wrapper">
+                <NavLinks links={headerLinks} customClassName="main-nav"/>
             </nav>
-        </header>
+        </div>
     );
 };
 

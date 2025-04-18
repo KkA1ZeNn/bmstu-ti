@@ -4,7 +4,7 @@ import PortfolioPage from './components/pages/portfolioPage/portfolioPage';
 function App() {
 
   return (
-      <div className='main-wrapper'>
+      <div className='app-wrapper'>
         <PortfolioPage />
       </div>
   );

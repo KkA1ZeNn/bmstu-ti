@@ -1,12 +1,13 @@
 import Footer from "./portfolioPageFooter/portfolioPageFooter";
 import Header from "./portfolioPageHeader/portfolioPageHeader";
 import Main from "./portfolioPageMain/portfolioPageMain";
+import './portfolioPage.css'
 
 const PortfolioPage = () => {
     return (
         <>
-            <Header />
-
+            <header id="header"><Header /></header>
+            <main id="main"><Main /></main>
         </>
     );
 };
