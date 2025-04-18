@@ -1,0 +1,19 @@
+{
+  "name": "bmstu-ti",
+  "version": "1.0.0",
+  "description": "Rep for TI lessons in bmstu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KkA1ZeNn/bmstu-ti.git"
+  },
+  "author": "Manuilov Daniil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KkA1ZeNn/bmstu-ti/issues"
+  },
+  "homepage": "https://github.com/KkA1ZeNn/bmstu-ti#readme"
+}
