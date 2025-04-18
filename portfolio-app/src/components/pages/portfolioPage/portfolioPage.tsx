@@ -6,8 +6,7 @@ const PortfolioPage = () => {
     return (
         <>
             <Header />
-            <Main />
-            <Footer />
+
         </>
     );
 };
