@@ -1,3 +1,8 @@
 https://dzen.ru/a/Z3lF4blrEhpKgBDt - реакт + вайт
 https://habr.com/ru/companies/piter/articles/744824/ - архитектура приложения
 https://dzen.ru/a/Z1qeqosrFxtK2UAz - swc
+
+https://www.figma.com/design/6JA3Sz8xUPx1xRfLFS0Uv6/TI-var1?node-id=1-72&t=CGNaurDHTFisXz9F-0 - макет
+https://studnet.mf.bmstu.ru/ti/lesson/1.3/ - лаба
+
+возможно стоит выделить секцию в отдельный компонент

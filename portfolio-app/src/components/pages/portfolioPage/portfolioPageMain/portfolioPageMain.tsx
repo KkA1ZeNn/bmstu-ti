@@ -32,6 +32,10 @@ const Main = () => {
                     </p>
                 </div>
             </section>
+
+            <section id='skills'>
+                
+            </section>
         </>
     );
 };
