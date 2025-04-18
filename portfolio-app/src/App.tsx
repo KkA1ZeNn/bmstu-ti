@@ -1,12 +1,11 @@
 import './App.css'
-import Header from './Header'
+import PortfolioPage from './components/pages/portfolioPage/portfolioPage';
 
 function App() {
 
   return (
-      <div>
-        <Header />
-        <p>Давай создавать крутые приложения!</p>
+      <div className='main-wrapper'>
+        <PortfolioPage />
       </div>
   );
 }
