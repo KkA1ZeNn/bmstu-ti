@@ -1,4 +1,4 @@
-ul,p {
+ul,p,h1,h2,h3 {
     padding: 0;
     margin: 0;
 }
@@ -8,7 +8,7 @@ ul,p {
 }
 
 .app-wrapper {
-    max-width: 1024px;
+    max-width: 1240px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
