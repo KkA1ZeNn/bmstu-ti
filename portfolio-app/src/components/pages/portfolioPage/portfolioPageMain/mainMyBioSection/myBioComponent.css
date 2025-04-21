@@ -1,0 +1,29 @@
+.myBio__info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info__name {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 110%;
+    color: #212121;
+}
+
+.info__work-position {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 120%;
+    color: #09A494;
+}
+
+.myBio__photo {
+    width: 400px;
+    height: 400px;
+}
+
+.myBio__photo img {
+    width: 100%;
+    height: auto;
+}

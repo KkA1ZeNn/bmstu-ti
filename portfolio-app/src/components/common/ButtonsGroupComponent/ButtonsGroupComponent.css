@@ -1,0 +1,24 @@
+.buttons-group-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.buttons-group__label {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #212121;
+}
+
+.buttons-group__button {
+    border: 1px solid #09A494;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 6px 10px;
+    background-color: #fff;
+    height: 36px;
+
+    font-weight: 400;
+    font-size: 20px;
+    color: #09A494;
+}

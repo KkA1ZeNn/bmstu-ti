@@ -15,9 +15,3 @@ ul,p,h1,h2,h3 {
     align-items: center;
     gap: 120px;
 }
-
-.myBio__info {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
