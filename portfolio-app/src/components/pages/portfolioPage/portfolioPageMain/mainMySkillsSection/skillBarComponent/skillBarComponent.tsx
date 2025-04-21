@@ -11,7 +11,8 @@ interface SkillBarProps {
 // Компонент SkillBar
 const SkillBar: React.FC<SkillBarProps> = ({ customClassName, skillName, skillIconPath, skillGrade }) => {
     return (
-        
+        <>
+        </>
     );
 };
 

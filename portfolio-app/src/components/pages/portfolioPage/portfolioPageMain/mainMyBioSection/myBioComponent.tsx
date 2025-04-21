@@ -1,4 +1,4 @@
-import myPhoto from '../../../../../assets/intro-photo.jpg'
+import myPhoto from '../../../../../assets/images/intro-photo.jpg'
 import './myBioComponent.css'
 
 const MyBio = () => {
