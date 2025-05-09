@@ -1,0 +1,20 @@
+.contacts__header {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    color: #212121;
+}
+
+.myIntests__text {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.myIntests__text  p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #212121;
+}
