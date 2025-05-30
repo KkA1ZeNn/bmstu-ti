@@ -1,9 +1,14 @@
+.myContacts-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
 .myContacts__header {
     font-weight: 700;
     font-size: 30px;
     line-height: 120%;
     color: #212121;
-    margin-bottom: 40px;
 }
 
 .myContacts__info {
@@ -11,7 +16,6 @@
     flex-direction: row;
     gap: 40px;
     align-items: center;
-    margin-bottom: 40px;
 }
 
 .info__item {

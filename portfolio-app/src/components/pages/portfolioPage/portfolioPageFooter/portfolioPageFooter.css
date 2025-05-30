@@ -2,15 +2,16 @@
     width: 100%;
     background-color: #212121;
     margin-top: 120px;
-    padding: 50px 0;
+    padding: 50px 244px;
+    display: flex;
+    justify-content: center;
 }
 
 .footer-text {
-    max-width: 1240px;
-    margin: 0 auto;
-    padding: 0 244px;
+    width: 1240px;
     color: #ffffff;
     font-size: 16px;
     line-height: 150%;
     font-weight: 400;
+    text-align: left;
 }

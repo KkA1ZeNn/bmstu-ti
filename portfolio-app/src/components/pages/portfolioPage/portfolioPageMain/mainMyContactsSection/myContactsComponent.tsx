@@ -12,7 +12,7 @@ const MyContacts = () => {
     ];
 
     return (
-        <>
+        <div className="myContacts-wrapper">
             <h3 className="myContacts__header">Мои контакты</h3>
             
             <div className="myContacts__info">
@@ -40,7 +40,7 @@ const MyContacts = () => {
                     </a>
                 ))}
             </div>
-        </>
+        </div>
     );
 };
 
