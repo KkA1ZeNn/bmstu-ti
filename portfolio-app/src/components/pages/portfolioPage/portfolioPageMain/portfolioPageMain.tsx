@@ -3,6 +3,7 @@ import MyBio from './mainMyBioSection/myBioComponent';
 import AboutMe from './mainAboutMeSection/aboutMeComponent';
 import MyInterests from './mainMyInterestsSection/myInterestsComponent';
 import MySkills from './mainMySkillsSection/mySkillsComponent';
+import MyContacts from './mainMyContactsSection/myContactsComponent';
 
 const Main = () => {
     return (
@@ -21,6 +22,10 @@ const Main = () => {
 
         <section id='interests'>
             <MyInterests/>
+        </section>
+
+        <section id='contacts'>
+            <MyContacts/>
         </section>
         </>
     );

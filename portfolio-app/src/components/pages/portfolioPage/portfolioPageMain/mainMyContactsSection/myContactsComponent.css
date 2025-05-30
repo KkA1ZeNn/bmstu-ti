@@ -1,0 +1,63 @@
+.myContacts__header {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    color: #212121;
+    margin-bottom: 40px;
+}
+
+.myContacts__info {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.info__item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.info__icon {
+    width: 24px;
+    height: 24px;
+    color: #212121;
+}
+
+.info__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #212121;
+}
+
+.myContacts__social {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.social__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #09A494;
+    color: #212121;
+    transition: all 0.3s ease;
+}
+
+.social__link:hover {
+    border-color: #078275;
+    transform: translateY(-2px);
+}
+
+.social__icon {
+    width: 20px;
+    height: 20px;
+} 
