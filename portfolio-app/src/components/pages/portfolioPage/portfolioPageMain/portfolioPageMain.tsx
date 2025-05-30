@@ -8,17 +8,17 @@ import MyContacts from './mainMyContactsSection/myContactsComponent';
 const Main = () => {
     return (
         <>
-        <article id="myBio">
-            <MyBio/>
-        </article>
+            <article id="myBio">
+               <MyBio/>
+            </article>
 
-        <section id='aboutMe'>
-            <AboutMe/>
-        </section>
+            <section id='aboutMe'>
+               <AboutMe/>
+            </section>
 
-        <section id='skills'>
-            <MySkills/>
-        </section>
+            <section id='skills'>
+               <MySkills/>
+            </section>
 
         <section id='interests'>
             <MyInterests/>
