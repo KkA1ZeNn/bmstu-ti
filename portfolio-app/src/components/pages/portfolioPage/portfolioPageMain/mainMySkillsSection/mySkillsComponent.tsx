@@ -2,18 +2,24 @@ import { useState } from 'react';
 import ButtonGroup from '../../../../common/ButtonsGroupComponent/ButtonsGroupComponent';
 import SkillBar from './skillBarComponent/skillBarComponent';
 import './mySkillsComponent.css'
+import htmlIcon from '../../../../../assets/images/skills/skill=html.svg'
+import cssIcon from '../../../../../assets/images/skills/skill=css.svg'
+import jsIcon from '../../../../../assets/images/skills/skill=javascript.svg'
+import reactIcon from '../../../../../assets/images/skills/skill=react.svg'
+import javaIcon from '../../../../../assets/images/skills/skill=java.svg'
 
 interface Skill {
     name: string;
     grade: number;
+    icon: string;
 }
 
 const initialSkills: Skill[] = [
-    { name: 'HTML', grade: 90 },
-    { name: 'CSS', grade: 85 },
-    { name: 'JavaScript', grade: 80 },
-    { name: 'React', grade: 75 },
-    { name: 'Angular', grade: 70 },
+    { name: 'HTML', grade: 90, icon: htmlIcon },
+    { name: 'CSS', grade: 85, icon: cssIcon },
+    { name: 'JavaScript', grade: 80, icon: jsIcon },
+    { name: 'React', grade: 10, icon: reactIcon },
+    { name: 'Angular', grade: 30, icon: javaIcon },
 ];
 
 const MySkills = () => {
@@ -57,6 +63,7 @@ const MySkills = () => {
                             key={skill.name}
                             skillName={skill.name}
                             skillGrade={skill.grade}
+                            skillIcon={skill.icon}
                         />
                     ))}
                 </dl>

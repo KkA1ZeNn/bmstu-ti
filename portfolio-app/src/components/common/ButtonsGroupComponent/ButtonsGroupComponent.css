@@ -7,18 +7,18 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
-    color: #212121;
+    color: var(--text-color);
 }
 
 .buttons-group__button {
-    border: 1px solid #09A494;
+    border: 1px solid var(--green);
     border-radius: 8px;
     cursor: pointer;
     padding: 6px 10px;
-    background-color: #fff;
+    background-color: var(--bg-color);
     height: 36px;
 
     font-weight: 400;
     font-size: 20px;
-    color: #09A494;
+    color: var(--green);
 }

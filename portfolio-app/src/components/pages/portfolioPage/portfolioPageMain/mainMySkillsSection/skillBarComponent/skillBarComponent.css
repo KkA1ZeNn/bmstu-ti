@@ -7,14 +7,22 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 150%;
-    color: #212121;
+    color: var(--text-color);
     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.skill-icon {
+    width: 24px;
+    height: 24px;
 }
 
 .skill-progress {
     width: 100%;
     height: 30px;
-    background-color: #f5f5f5;
+    background-color: var(--bg-color);
     border-radius: 4px;
     margin: 0;
     overflow: hidden;
@@ -22,7 +30,7 @@
 
 .progress-bar {
     height: 100%;
-    background-color: #09A494;
+    background-color: var(--green);
     color: white;
     display: flex;
     align-items: center;

@@ -8,14 +8,14 @@
     font-weight: 700;
     font-size: 60px;
     line-height: 110%;
-    color: #212121;
+    color: var(--text-color);
 }
 
 .info__work-position {
     font-weight: 400;
     font-size: 38px;
     line-height: 120%;
-    color: #09A494;
+    color: var(--green);
 }
 
 .myBio__photo {

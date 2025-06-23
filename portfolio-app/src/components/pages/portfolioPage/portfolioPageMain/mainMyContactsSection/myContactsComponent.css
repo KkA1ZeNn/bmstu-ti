@@ -8,7 +8,7 @@
     font-weight: 700;
     font-size: 30px;
     line-height: 120%;
-    color: #212121;
+    color: var(--text-color);
 }
 
 .myContacts__info {
@@ -27,14 +27,14 @@
 .info__icon {
     width: 24px;
     height: 24px;
-    color: #212121;
+    color: var(--text-color);
 }
 
 .info__text {
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
-    color: #212121;
+    color: var(--text-color);
 }
 
 .myContacts__social {
@@ -47,21 +47,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-    background-color: white;
-    border: 2px solid #09A494;
-    color: #212121;
+    background-color: var(--bg-color);
+    border: 2px solid var(--green);
+    color: var(--text-color);
     transition: all 0.3s ease;
 }
 
 .social__link:hover {
-    border-color: #078275;
+    border-color: var(--green);
     transform: translateY(-2px);
 }
 
 .social__icon {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 } 

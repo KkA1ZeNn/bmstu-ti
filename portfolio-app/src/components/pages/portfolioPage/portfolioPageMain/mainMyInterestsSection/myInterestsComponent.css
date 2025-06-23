@@ -2,7 +2,7 @@
     font-weight: 700;
     font-size: 30px;
     line-height: 120%;
-    color: #212121;
+    color: var(--text-color);
 }
 
 .myIntests__text {
@@ -16,5 +16,5 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
-    color: #212121;
+    color: var(--text-color);
 }

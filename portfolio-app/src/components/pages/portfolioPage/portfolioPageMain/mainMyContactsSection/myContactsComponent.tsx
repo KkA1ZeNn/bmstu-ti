@@ -1,14 +1,17 @@
 import './myContactsComponent.css'
-import { FaGithub, FaGitlab, FaInstagram, FaTelegram, FaVk } from 'react-icons/fa'
-import { MdEmail, MdPhone } from 'react-icons/md'
+import githubIcon from '../../../../../assets/images/social/social=github.svg'
+import gitlabIcon from '../../../../../assets/images/social/social=gitlab.svg'
+import instagramIcon from '../../../../../assets/images/social/social=instagram.svg'
+import telegramIcon from '../../../../../assets/images/social/social=telegram.svg'
+import phoneIcon from '../../../../../assets/images/contacts/icon=phone.svg'
+import emailIcon from '../../../../../assets/images/contacts/icon=email.svg'
 
 const MyContacts = () => {
     const socialLinks = [
-        { icon: FaGithub, href: "https://github.com/your-github", label: "GitHub" },
-        { icon: FaGitlab, href: "https://gitlab.com/your-gitlab", label: "GitLab" },
-        { icon: FaInstagram, href: "https://instagram.com/your-instagram", label: "Instagram" },
-        { icon: FaTelegram, href: "https://t.me/your-telegram", label: "Telegram" },
-        { icon: FaVk, href: "https://vk.com/your-vk", label: "VK" }
+        { icon: githubIcon, href: "https://github.com/your-github", label: "GitHub" },
+        { icon: gitlabIcon, href: "https://gitlab.com/your-gitlab", label: "GitLab" },
+        { icon: instagramIcon, href: "https://instagram.com/your-instagram", label: "Instagram" },
+        { icon: telegramIcon, href: "https://t.me/your-telegram", label: "Telegram" }
     ];
 
     return (
@@ -17,11 +20,11 @@ const MyContacts = () => {
             
             <div className="myContacts__info">
                 <div className="info__item">
-                    <MdPhone className="info__icon" />
+                    <img src={phoneIcon} alt="phone" className="info__icon" />
                     <span className="info__text">+7 (XXX) XXX-XX-XX</span>
                 </div>
                 <div className="info__item">
-                    <MdEmail className="info__icon" />
+                    <img src={emailIcon} alt="email" className="info__icon" />
                     <span className="info__text">your.email@example.com</span>
                 </div>
             </div>
@@ -36,7 +39,7 @@ const MyContacts = () => {
                         rel="noopener noreferrer"
                         aria-label={social.label}
                     >
-                        <social.icon className="social__icon" />
+                        <img src={social.icon} alt={social.label} className="social__icon" />
                     </a>
                 ))}
             </div>
