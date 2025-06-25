@@ -19,14 +19,14 @@ const MyContacts = () => {
             <h3 className="myContacts__header">Мои контакты</h3>
             
             <div className="myContacts__info">
-                <div className="info__item">
+                <a href="tel:+7XXXXXXXXXX" className="info__item">
                     <img src={phoneIcon} alt="phone" className="info__icon" />
                     <span className="info__text">+7 (XXX) XXX-XX-XX</span>
-                </div>
-                <div className="info__item">
+                </a>
+                <a href="mailto:your.email@example.com" className="info__item">
                     <img src={emailIcon} alt="email" className="info__icon" />
                     <span className="info__text">your.email@example.com</span>
-                </div>
+                </a>
             </div>
 
             <div className="myContacts__social">
