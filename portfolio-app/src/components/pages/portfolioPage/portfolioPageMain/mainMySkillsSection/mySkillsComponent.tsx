@@ -20,7 +20,7 @@ const initialSkills: Skill[] = [
     { name: 'JavaScript', grade: 80, icon: jsIcon },
     { name: 'React', grade: 10, icon: reactIcon },
     { name: 'Angular', grade: 30, icon: javaIcon },
-];
+].sort((a, b) => a.name.localeCompare(b.name));
 
 const MySkills = () => {
     const [skills, setSkills] = useState<Skill[]>(initialSkills);
