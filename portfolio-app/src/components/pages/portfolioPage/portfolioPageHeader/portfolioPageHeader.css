@@ -43,5 +43,5 @@
     color: var(--text-color);
     font-size: 20px;
     font-family: 400;
-    line-height: 100%;
+    line-height: 1;
 }

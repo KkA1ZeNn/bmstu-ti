@@ -7,7 +7,7 @@
 .myContacts__header {
     font-weight: 700;
     font-size: 30px;
-    line-height: 120%;
+    line-height: 1.2;
     color: var(--text-color);
 }
 
@@ -39,7 +39,7 @@
 .info__text {
     font-weight: 400;
     font-size: 20px;
-    line-height: 150%;
+    line-height: 1.5;
     color: var(--text-color);
 }
 
