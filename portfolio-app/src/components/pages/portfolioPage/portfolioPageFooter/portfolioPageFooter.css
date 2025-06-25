@@ -2,13 +2,14 @@
     width: 100%;
     background-color: var(--text-color);
     margin-top: 120px;
-    padding: 50px 244px;
+    padding: 50px 20px;
     display: flex;
     justify-content: center;
 }
 
 .footer-text {
-    width: 1240px;
+    max-width: 1240px;
+    width: 100%;
     color: var(--bg-color);
     font-size: 16px;
     line-height: 150%;

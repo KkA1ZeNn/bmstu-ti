@@ -21,12 +21,12 @@
 .info__item {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 12px;
 }
 
 .info__icon {
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     color: var(--text-color);
 }
 

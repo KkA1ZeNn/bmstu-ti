@@ -20,7 +20,6 @@ const SkillBar: React.FC<SkillBarProps> = ({ skillName, skillGrade, skillIcon })
                     className="progress-bar" 
                     style={{ width: `${skillGrade}%` }}
                 >
-                    {skillGrade}%
                 </div>
             </dd>
         </div>
