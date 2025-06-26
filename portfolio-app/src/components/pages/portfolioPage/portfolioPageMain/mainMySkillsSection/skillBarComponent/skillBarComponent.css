@@ -21,13 +21,6 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    transition: all 0.3s ease;
-    cursor: pointer;
-}
-
-.skill-name:hover::before {
-    transform: scale(1.1);
-    filter: brightness(1.2);
 }
 
 /* Иконки навыков */
