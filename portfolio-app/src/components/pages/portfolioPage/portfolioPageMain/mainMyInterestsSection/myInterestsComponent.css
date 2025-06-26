@@ -1,5 +1,6 @@
 .myIntests__text {
-    width: 800px;
+    max-width: 800px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 15px;

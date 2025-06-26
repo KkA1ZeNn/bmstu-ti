@@ -115,4 +115,34 @@
 
 .social__icon--vk {
     background-image: url("/src/assets/images/social/social=vk.svg");
+}
+
+@media (max-width: 650px) {
+  .myContacts__info {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  .info__item {
+    font-size: 16px;
+    padding-left: 36px;
+  }
+  .info__item::before {
+    width: 24px;
+    height: 24px;
+  }
+  .myContacts__social {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: flex-start;
+  }
+  .social__link {
+    width: 36px;
+    height: 36px;
+  }
+  .social__icon {
+    width: 20px;
+    height: 20px;
+  }
 } 
