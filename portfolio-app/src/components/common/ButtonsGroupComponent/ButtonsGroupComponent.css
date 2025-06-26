@@ -4,21 +4,20 @@
 }
 
 .buttons-group__label {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1.5;
-    color: var(--text-color);
+    margin-right: 15px;
+}
+
+.buttons-group__container {
+    display: flex;
+    gap: 10px;
 }
 
 .buttons-group__button {
-    border: 1px solid var(--green);
-    border-radius: 8px;
-    cursor: pointer;
-    padding: 6px 10px;
+    padding: 12px 24px;
+    border: 2px solid var(--green);
+    border-radius: 30px;
     background-color: var(--bg-color);
-    height: 36px;
 
-    font-weight: 400;
-    font-size: 20px;
-    color: var(--green);
+    cursor: pointer;
+    transition: all 0.3s ease;
 }

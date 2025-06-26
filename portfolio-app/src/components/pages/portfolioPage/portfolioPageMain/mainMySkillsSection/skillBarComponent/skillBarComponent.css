@@ -4,19 +4,51 @@
 }
 
 .skill-name {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1;
-    color: var(--text-color);
     margin-bottom: 6px;
     display: flex;
     align-items: center;
     gap: 10px;
+    position: relative;
+    padding-left: 40px; /* место для иконки */
 }
 
-.skill-icon {
+.skill-name::before {
+    content: "";
+    position: absolute;
+    left: 0;
     width: 30px;
     height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.skill-name:hover::before {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+/* Иконки навыков */
+.skill-name--html::before {
+    background-image: url("/src/assets/images/skills/skill=html.svg");
+}
+
+.skill-name--css::before {
+    background-image: url("/src/assets/images/skills/skill=css.svg");
+}
+
+.skill-name--javascript::before {
+    background-image: url("/src/assets/images/skills/skill=javascript.svg");
+}
+
+.skill-name--react::before {
+    background-image: url("/src/assets/images/skills/skill=react.svg");
+}
+
+.skill-name--angular::before {
+    background-image: url("/src/assets/images/skills/skill=java.svg");
 }
 
 .skill-progress {

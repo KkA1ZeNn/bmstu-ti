@@ -3,7 +3,7 @@ import './myInterestsComponent.css'
 const MyInterests = () => {
     return (
         <>
-            <h3 className='myIntests__header'>Мои интересы</h3>
+            <h2 className='myIntests__header'>Мои интересы</h2>
             <div className='myIntests__text'>
                 <p>
                     Наибольший интерес для меня в данный момент представляет

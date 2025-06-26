@@ -6,7 +6,7 @@ const MyBio = () => {
         <>
             <div className="myBio__info">
                 <h1 className="info__name">Даниил Мануйлов</h1>
-                <h2 className="info__work-position">Frontend developer</h2>
+                <h1 className="subtitle">Frontend developer</h1>
             </div>
             <div className="myBio__photo">
                 <img src={myPhoto} alt="my photo" />

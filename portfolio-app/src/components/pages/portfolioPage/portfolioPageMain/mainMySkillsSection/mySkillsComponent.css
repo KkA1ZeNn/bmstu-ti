@@ -6,11 +6,27 @@
     margin-bottom: 40px;
 }
 
-.mySkills__header {
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 1.2;
-    color: var(--text-color);
+/* Стили для подписи "Сортировать" */
+.mySkills__buttons .buttons-group__label {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Стили для кнопок сортировки */
+.mySkills__buttons .buttons-group__button {
+    border-radius: 8px;
+    color: var(--green);
+    background-color: transparent;
+    border: 1px solid var(--green);
+    padding: 6px 10px 10px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.mySkills__buttons .buttons-group__button:hover {
+    background-color: var(--green);
+    color: var(--bg-color);
 }
 
 .mySkills-content-wrapper {

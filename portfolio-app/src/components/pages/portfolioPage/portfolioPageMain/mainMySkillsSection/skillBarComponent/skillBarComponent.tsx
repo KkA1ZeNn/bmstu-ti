@@ -4,15 +4,28 @@ import './skillBarComponent.css'
 interface SkillBarProps {
     skillName: string;
     skillGrade: number;
-    skillIcon: string;
 }
 
+// Функция для получения CSS класса иконки на основе имени навыка
+const getIconClass = (skillName: string): string => {
+    const iconMap: { [key: string]: string } = {
+        'HTML': 'skill-name--html',
+        'CSS': 'skill-name--css', 
+        'JavaScript': 'skill-name--javascript',
+        'React': 'skill-name--react',
+        'Angular': 'skill-name--angular'
+    };
+    
+    return iconMap[skillName] || 'skill-name';
+};
+
 // Компонент SkillBar
-const SkillBar: React.FC<SkillBarProps> = ({ skillName, skillGrade, skillIcon }) => {
+const SkillBar: React.FC<SkillBarProps> = ({ skillName, skillGrade }) => {
+    const iconClass = getIconClass(skillName);
+    
     return (
         <div className="skill-item">
-            <dt className="skill-name">
-                <img src={skillIcon} alt={skillName} className="skill-icon" />
+            <dt className={`skill-name ${iconClass}`}>
                 {skillName}
             </dt>
             <dd className="skill-progress">

@@ -36,13 +36,16 @@ h3 {
 }
 
 button, a {
+    font-family: inherit;
     font-size: 20px;
     line-height: 1;
 }
 
 h1.subtitle {
-    font-size: 60px;
-    line-height: 1.1;
+    font-size: 38px;
+    line-height: 1.2;
+    color: var(--green);
+    font-weight: 400;
 }
 
 *, *::before, *::after {
