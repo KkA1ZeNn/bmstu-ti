@@ -5,6 +5,7 @@
     scroll-behavior: smooth;
 }
 
+/* Desktop (1024px и больше) */
 body {
     margin: 0;
     padding: 0;
@@ -46,6 +47,60 @@ h1.subtitle {
     line-height: 1.2;
     color: var(--green);
     font-weight: 400;
+}
+
+/* Tablet (650px и меньше) */
+@media (max-width: 650px) {
+    body {
+        font-size: 16px;
+    }
+    
+    h1 {
+        font-size: 50px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+    h3 {
+        font-size: 18px;
+    }
+    
+    button, a {
+        font-size: 16px;
+    }
+    
+    h1.subtitle {
+        font-size: 28px;
+    }
+}
+
+/* Mobile (360px и меньше) */
+@media (max-width: 360px) {
+    body {
+        font-size: 14px;
+    }
+    
+    h1 {
+        font-size: 32px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+    
+    h3 {
+        font-size: 16px;
+    }
+    
+    button, a {
+        font-size: 14px;
+    }
+    
+    h1.subtitle {
+        font-size: 20px;
+    }
 }
 
 *, *::before, *::after {
