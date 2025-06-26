@@ -4,14 +4,29 @@
     gap: 20px;
 }
 
-
-
 .myBio__photo {
     width: 400px;
     height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .myBio__photo img {
     width: 100%;
     height: auto;
+}
+
+/* Mobile стили для экранов 650px и меньше */
+@media (max-width: 650px) {
+    .myBio__info {
+        text-align: center;
+        order: 2;
+    }
+    
+    .myBio__photo {
+        width: 150px;
+        height: 150px;
+        order: 1;
+    }
 }

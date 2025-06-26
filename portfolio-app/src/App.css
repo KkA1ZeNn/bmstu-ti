@@ -17,3 +17,10 @@ ul,p,h1,h2,h3 {
     align-items: center;
     gap: 120px;
 }
+
+/* Mobile стили для экранов 650px и меньше */
+@media (max-width: 650px) {
+    .app-wrapper {
+        gap: 50px;
+    }
+}
