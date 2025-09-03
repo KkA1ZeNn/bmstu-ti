@@ -48,6 +48,14 @@
     background-image: url("/src/assets/images/contacts/icon=email.svg");
 }
 
+[data-theme="dark"] .info__item--phone::before {
+    background-image: url("/src/assets/images/contacts/icon=phone.darktheme.svg");
+}
+
+[data-theme="dark"] .info__item--email::before {
+    background-image: url("/src/assets/images/contacts/icon=email.darktheme.svg");
+}
+
 .info__item:hover {
     color: var(--green);
 }
@@ -94,6 +102,15 @@
     background-repeat: no-repeat;
     background-position: center;
     transition: all 0.3s ease;
+}
+
+/* Темная тема - добавляем серый фон для иконок соц сетей */
+[data-theme="dark"] .social__link {
+    background-color: var(--secondary-bg);
+}
+
+[data-theme="dark"] .social__link:hover {
+    background-color: var(--green);
 }
 
 /* Иконки социальных сетей */

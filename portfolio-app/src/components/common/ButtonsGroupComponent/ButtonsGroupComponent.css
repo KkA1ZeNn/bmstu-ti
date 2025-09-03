@@ -17,7 +17,13 @@
     border: 2px solid var(--green);
     border-radius: 30px;
     background-color: var(--bg-color);
+    color: var(--text-color);
 
     cursor: pointer;
     transition: all 0.3s ease;
+}
+
+.buttons-group__button:hover {
+    background-color: var(--green);
+    color: var(--bg-color);
 }

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import NavLinks, { Link } from "../../../common/navBarComponent/navBarComponent";
+import ThemeToggle from "../../../common/ThemeToggle/ThemeToggle";
 import main_logo from '../../../../assets/images/main-logo.svg';
 import burger_icon from '../../../../assets/images/Property 1=burger.svg';
 import vector_icon from '../../../../assets/images/Vector.svg';
@@ -25,16 +26,19 @@ const Header: React.FC = () => {
                 <div className="logo-wrapper">
                     <a href="#"><img src={main_logo} alt="main page logo" /></a>
                 </div>
-                <button 
-                    className="mobile-menu-toggle" 
-                    onClick={toggleMobileMenu}
-                    aria-label={isMobileMenuOpen ? "Закрыть меню" : "Открыть меню"}
-                >
-                    <img 
-                        src={isMobileMenuOpen ? vector_icon : burger_icon} 
-                        alt={isMobileMenuOpen ? "Закрыть меню" : "Открыть меню"} 
-                    />
-                </button>
+                <div className="header-controls">
+                    <ThemeToggle />
+                    <button 
+                        className="mobile-menu-toggle" 
+                        onClick={toggleMobileMenu}
+                        aria-label={isMobileMenuOpen ? "Закрыть меню" : "Открыть меню"}
+                    >
+                        <img 
+                            src={isMobileMenuOpen ? vector_icon : burger_icon} 
+                            alt={isMobileMenuOpen ? "Закрыть меню" : "Открыть меню"} 
+                        />
+                    </button>
+                </div>
                 <nav className="nav-wrapper nav-wrapper--desktop">
                     <NavLinks links={headerLinks} customClassName="main-nav"/>
                 </nav>

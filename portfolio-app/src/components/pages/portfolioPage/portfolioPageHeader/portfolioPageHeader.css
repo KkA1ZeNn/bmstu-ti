@@ -11,6 +11,12 @@
     gap: 40px;
 }
 
+.header-controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 .logo-wrapper {
     width: 60px;
     height: 60px;
@@ -89,6 +95,10 @@
     .logo-wrapper {
         width: 40px;
         height: 40px;
+    }
+    
+    .header-controls {
+        gap: 15px;
     }
     
     .nav-wrapper--desktop {

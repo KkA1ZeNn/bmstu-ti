@@ -10,11 +10,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: var(--bg-color);
+    border: 3px solid var(--border-color);
 }
 
 .myBio__photo img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 /* Mobile стили для экранов 650px и меньше */
@@ -28,5 +34,6 @@
         width: 150px;
         height: 150px;
         order: 1;
+        border-width: 2px;
     }
 }

@@ -1,0 +1,56 @@
+.theme-toggle {
+  background: none;
+  border: 2px solid var(--text-color);
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  color: var(--text-color);
+  padding: 0;
+}
+
+.theme-toggle:hover {
+  background-color: var(--green);
+  border-color: var(--green);
+  color: var(--bg-color);
+  transform: scale(1.05);
+}
+
+.theme-toggle:active {
+  transform: scale(0.95);
+}
+
+.theme-toggle__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+
+.theme-toggle__icon svg {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.theme-toggle:hover .theme-toggle__icon svg {
+  transform: rotate(15deg);
+}
+
+/* Mobile стили */
+@media (max-width: 650px) {
+  .theme-toggle {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .theme-toggle__icon {
+    width: 16px;
+    height: 16px;
+  }
+}

@@ -7,6 +7,11 @@
     justify-content: center;
 }
 
+/* Зеленый футер только для темной темы */
+[data-theme="dark"] .footer-content {
+    background-color: var(--green);
+}
+
 .footer-text {
     max-width: 1240px;
     width: 100%;
